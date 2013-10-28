@@ -54,5 +54,20 @@ struct snode {
 void push(int data);
 int pop();
 
+// ************************ FIFO QUEUE using Linked List ************************
+
+struct qnode
+{
+	long data;
+	qnode *next;
+};
+
+qnode* newNode(int d);
+void insertNode(int d, qnode **head, qnode **tail);
+qnode* removeNode(qnode **head, qnode **tail);
+
 // ************************ FIND ************************
 void findKey(int key, int nodeOff);
+
+// ************************ PRINT ************************
+void print_data();

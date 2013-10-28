@@ -14,7 +14,13 @@ int fileOff;
 int rootOff;
 int recordLen;
 
-snode* head;
+snode* head;	// Stack
+
+qnode* head1;	// Queue1: Current Level
+qnode* tail1;
+
+qnode* head2;	// Queue2: Next Level
+qnode* tail2;
 
 int main( int argc, char *argv[] )
 {
@@ -87,7 +93,7 @@ int main( int argc, char *argv[] )
 		// 3. Print data
 		else if(strcmp(cmd[0], "print") == 0)
 		{
-			// print_data();
+			print_data();
 		}
 
 		// 4. End Command
@@ -458,4 +464,137 @@ void findKey(int key, int nodeOff)
 		printf("Record %d does not exist.\n", key);
 	}
 
+}
+
+// **************************** FIND ****************************
+
+void print_data()
+{
+	// add root	
+	insertNode(rootOff, &head1, &tail1);
+	
+	int currNodeOff = 0;
+	int level = 1;
+	
+	//fp.clear();
+	
+	qnode* currLevelNode;	// Current Level Node
+	qnode* nextLevelNode;	// Next Level Node
+	
+	btree_node* currBTreeNode = create_btree_node();
+
+	currLevelNode = removeNode(&head1, &tail1);
+
+	//printf("\n");
+	
+	while(currLevelNode)
+	{
+		printf(" \n%d: ", level);
+
+		while(currLevelNode)
+		{
+			currNodeOff = currLevelNode->data;
+
+			fp.seek(currNodeOff, BEGIN);
+			fp.read_raw((char*)currBTreeNode, sizeof(btree_node));
+
+			for(int i = 0; i <= currBTreeNode->n; i++)
+			{
+				if(i < (currBTreeNode->n))
+				{
+					if(i!= 0)
+					{
+						printf(",");
+					}
+					printf("%d", currBTreeNode->key[i]); 
+				}
+				if(currBTreeNode->child[i] != -1)
+				{
+					insertNode(currBTreeNode->child[i], &head2, &tail2);
+				}
+			}
+
+			printf("/%d ", currNodeOff); 
+
+			currLevelNode = removeNode(&head1, &tail1);
+		}
+		head1 = head2;
+		tail1 = tail2;
+		
+		currLevelNode = removeNode(&head1, &tail1);
+		
+		level++;
+
+		head2 = NULL;
+		tail2 = NULL;
+	}
+}
+
+// **************************** QUEUE IMPLEMENTATION ****************************
+
+qnode* newNode(int d)
+{
+	qnode* temp;
+	temp = (qnode*)malloc(sizeof(qnode));
+
+	temp->data = d;
+	temp->next = NULL;
+
+	return temp;
+}
+
+void insertNode(int d, qnode **head, qnode **tail)
+{
+	qnode* tmp;
+	qnode* headtmp;
+	qnode* tailtmp;
+
+	tmp = newNode(d);
+	headtmp = *head;
+	tailtmp = *tail;
+
+	if(tailtmp == NULL)
+	{
+		// No element exists
+		if(headtmp != NULL)
+		{
+			printf("\nERROR: TAIL NOT SET PROPERLY");
+		}
+
+		*tail = tmp;
+		*head = *tail;
+	}
+	else
+	{
+		// Insert in the end
+		tailtmp->next = tmp;
+		*tail = tmp;
+	}
+}
+
+qnode* removeNode(qnode **head, qnode **tail)
+{
+	qnode* tmp;
+	qnode* headtmp;
+	qnode* tailtmp;
+
+	if(*head == NULL)
+	{
+		if(*tail != NULL)
+		{
+			printf("\n Tail pointer not updated");
+		}
+		return NULL;
+	}
+	else
+	{
+		tmp = *head;
+		*head= (*head)->next;
+
+		if(!(*head))
+		{
+			*tail = *head;
+		}
+	}
+	return tmp;
 }
