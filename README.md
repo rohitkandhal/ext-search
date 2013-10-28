@@ -1,4 +1,5 @@
-ext-search
+External File Searching
 ==========
 
-External Searching in a file using BST and B-Tree
+Comparison of an in-memory efficient **Binary Search Tree**
+with an algorithm specifically designed for external searching **B-Tree**
