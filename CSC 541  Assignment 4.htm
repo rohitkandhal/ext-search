@@ -1,0 +1,373 @@
+
+<!-- saved from url=(0052)http://courses.ncsu.edu/csc541/lec/601/wrap/hw4.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		
+		<meta name="generator" content="Adobe GoLive 4">
+		<title>CSC 541: Assignment 4</title>
+	<style type="text/css"></style><style type="text/css" id="GINGER_SOFATWARE_style">.GINGER_SOFATWARE_noMark { background : transparent; }  .GINGER_SOFATWARE_wrapper{ position: absolute; overflow: hidden; margin: 0px; padding: 0px; border: 0px solid transparent } .GINGER_SOFATWARE_contour { position : absolute; margin: 0px; }  .GINGER_SOFATWARE_richText { margin : 0px; padding-bottom: 3px; border-width: 0px; border-color: transparent; display: block; color: transparent; -webkit-text-fill-color: transparent; overflow: hidden; white-space: pre-wrap;}  .GINGER_SOFATWARE_inputWrapper .GINGER_SOFATWARE_richText {position: absolute;}  .GINGER_SOFATWARE_canvas { display:none; background-repeat:no-repeat;}  .GINGER_SOFATWARE_control .GINGER_SOFATWARE_correct, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_SpellingCorrect, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_spelling, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_mark {border-top-left-radius:2px; border-top-right-radius:2px; border-bottom-right-radius:2px; border-bottom-left-radius:2px;} .GINGER_SOFATWARE_control .GINGER_SOFATWARE_correct, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_SpellingCorrect, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_spelling, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_mark {background-image:url(data:image/gif;base64,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)!important;} .GINGER_SOFATWARE_control .GINGER_SOFATWARE_correct.GINGER_SOFATWARE_synonym, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_SpellingCorrect.GINGER_SOFATWARE_synonym, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_spelling.GINGER_SOFATWARE_synonym, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_mark.GINGER_SOFATWARE_synonym {background-image:url(data:image/gif;base64,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)!important;} .GINGER_SOFATWARE_control .GINGER_SOFATWARE_correct.GINGER_SOFATWARE_noSuggestion, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_SpellingCorrect.GINGER_SOFATWARE_noSuggestion, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_spelling.GINGER_SOFATWARE_noSuggestion, .GINGER_SOFATWARE_control .GINGER_SOFATWARE_mark.GINGER_SOFATWARE_noSuggestion {background-image:url(data:image/gif;base64,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)!important;} .GINGER_SOFATWARE_richText .GINGER_SOFATWARE_correct, .GINGER_SOFATWARE_richText .GINGER_SOFATWARE_SpellingCorrect, .GINGER_SOFATWARE_richText .GINGER_SOFATWARE_spelling, .GINGER_SOFATWARE_richText .GINGER_SOFATWARE_mark {position:relative; background-image:none!important;} .GINGER_SOFATWARE_richText .GINGER_SOFATWARE_markHighlightLeft { position : absolute; left:-2px; top:0px; bottom:0px; width:2px;} .GINGER_SOFATWARE_richText .GINGER_SOFATWARE_markHighlightRight { position : absolute; right:-2px; top:0px; bottom:0px; width:2px;} .GINGER_SOFATWARE_richText .GINGER_SOFATWARE_markHighlightTop { position : absolute; left:0px; right:0px; top:-2px; height:3px;} .GINGER_SOFATWARE_richText .GINGER_SOFATWARE_markHighlightBottom { position : absolute; left:0px; right:0px; bottom:-2px; height:3px;}</style></head>
+
+	<body bgcolor="white" ginger_sofatware_stylesheet="true" ginger_sofatware_doc="true">
+		<div align="left">
+			<font size="-1">[<a href="http://dbgroup.ncsu.edu/?page_id=1200">CSC 541 Homepage</a>] [<a href="http://www.csc.ncsu.edu/">CSC Homepage</a>] [<a href="http://www.ncsu.edu/">NCSU Homepage</a>]</font>
+			<hr>
+		</div>
+		<div align="center">
+			<div align="center">
+				<div align="center">
+					<div align="center">
+						<div align="center">
+							<p><b><font size="+2">CSC 541: Assignment #4<br>
+										External Searching</font></b></p>
+							<p><i>Due: By 11:59pm on Monday, October 28 via the <a href="http://courses.ncsu.edu/csc541/"><i>Assignment_4</i> submit board</a><br>
+							</i></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div align="left">
+			<h3><a name="supplemental_material"></a>Supplemental Material</h3>
+		</div>
+		<ul>
+			<li><a href="http://courses.ncsu.edu/csc541/lec/601/wrap/input_small.txt"><tt>input_small.txt</tt></a> (small sample input)
+			</li><li><a href="http://courses.ncsu.edu/csc541/lec/601/wrap/bst_small.txt"><tt>bst_small.txt</tt></a> (small BST output)
+			</li><li><a href="http://courses.ncsu.edu/csc541/lec/601/wrap/btree_small.txt"><tt>btree_small.txt</tt></a> (small BTree output)<a href="http://courses.ncsu.edu/csc541/lec/601/wrap/btree_small.txt"><br>
+					<br>
+				</a>
+			</li><li><a href="http://courses.ncsu.edu/csc541/lec/601/wrap/input_large.txt"><tt>input_large.txt</tt></a> (large sample input)
+			</li><li><a href="http://courses.ncsu.edu/csc541/lec/601/wrap/bst_large.txt"><tt>bst_large.txt</tt></a> (large BST output)
+			</li><li><a href="http://courses.ncsu.edu/csc541/lec/601/wrap/btree_large.txt"><tt>btree_large.txt</tt></a> (large BTree output)
+		</li></ul>
+		<h3>Introduction</h3>
+		<p>The goals of this assignment is to study different methods of external searching. We will do this by comparing an algorithm designed for in-memory efficiency (BST) with an algorithm specifically designed for external searching (B-Tree).</p>
+		<h3>User Interface</h3>
+		<p>In both parts of this assignment the user will communicate with your program via the keyboard (or via file redirection). The user will ask your program to store and retrieve integer numbers that represent numeric keys. We are simulating the creation of a primary key index stored on disk, so only the integer keys need to be recorded in your index file. Since each record contains a single integer key (plus any necessary links to other records in the file), you will use fixed-length records. In fact, this is normally a requirement for both of the search algorithms you will implement.</p>
+		<p>Your program must understand and respond to the following three commands:</p>
+		<ul>
+			<li><i>add key</i><br>
+				Adds a new record with integer key <i>key</i> to the index file. For example:<br>
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tt>add 712412913<br>
+				</tt><br>
+				adds a new record with a key of 712412913 to the index file.<br>
+				<br>
+			</li><li><i>find key</i><br>
+				Finds the record with integer key <i>key</i> in the index file, if it exists. If a matching record is found, the program should print on-screen:<br>
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tt>Record key exists.<br>
+				</tt><br>
+				otherwise, the program should print on-screen:<br>
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tt>Record key does not exist.<br>
+					<br>
+				</tt>
+			</li><li><i>end<br>
+				</i>Ends the program.
+		</li></ul>
+		<p>Your program will be executed from the command line with a single argument, the name of the index file to use to store the keys. For example:</p>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td width="35">&nbsp;</td>
+		    <td><pre><font size="-1"><code>bst file.bst</code></font></pre></td>
+	      </tr>
+    </tbody></table>
+<p>would start the BST program and store keys in the index file named <tt>file.bst</tt>. Similarly,</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="35">&nbsp;</td>
+    <td><pre><font size="-1"><code>btree file.btree</code></font></pre></td>
+  </tr>
+</tbody></table>
+<p>would start the B-Tree program and store keys in the index file named <tt>file.btree</tt>.</p>
+<p><b>Note:</b> Normally we would support deletion of records and use a simple availability list to track "holes" in the file. You are not being asked to implement such a feature for this assignment. Consequently, the first thing your program should do is delete any existing index file before it begins. You can do this with the following command:</p>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td width="35">&nbsp;</td>
+		    <td><pre><font size="-1"><code>#include &lt;stdlib.h&gt;
+
+system( "del file.bst" );</code></font></pre></td>
+	      </tr>
+    </tbody></table>
+<p>where <tt>file.bst</tt> is the name of the file in the current working directory you want to remove. </p>
+		<h3>Binary Search Tree (BST)</h3>
+		<p>In the first half of the assignment you will implement a simple file-based BST to store and retrieve keys. The root node of the BST will be stored at offset 0 (at the front) of the index file. All other nodes (both internal and leaf) will be appended to the index file as they are added by the user. Each node will have the format:</p>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td width="35">&nbsp;</td>
+		    <td><pre><font size="-1"><code>struct bst_node {
+  int key;     // Key value
+  long l;      // File offset of left child node
+  long r;      // File offset of right child node
+}</code></font>
+</pre></td>
+	      </tr>
+    </tbody></table>
+<p><tt>l</tt> and <tt>r</tt> are the offset locations from the beginning of the file to the left and right child nodes. This is analogous to the use of left and right pointers for an in-memory BST. If either child doesn't exists, the node's <tt>l</tt> (or <tt>r</tt>) field should be set to -1.</p>
+		<p>Consider the BST shown below. The table to its right represents the index file that represents the BST.</p>
+		<blockquote>
+			<table border="1" cellspacing="0" cellpadding="2">
+				<tbody><tr>
+					<td rowspan="4" align="center">&nbsp;&nbsp;<img src="./CSC 541  Assignment 4_files/bst_01.gif" alt="" height="44" width="90" border="0">&nbsp;&nbsp;</td>
+					<td align="center" width="65"><tt>offset</tt></td>
+					<td align="center" width="65"><tt>key</tt></td>
+					<td align="center" width="65"><tt>l</tt></td>
+					<td align="center" width="65"><tt>r</tt></td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>0</tt></td>
+					<td align="center" width="65"><tt>25</tt></td>
+					<td align="center" width="65"><tt>12</tt></td>
+					<td align="center" width="65"><tt>24</tt></td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>12</tt></td>
+					<td align="center" width="65"><tt>15</tt></td>
+					<td align="center" width="65"><tt>-1</tt></td>
+					<td align="center" width="65"><tt>-1</tt></td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>24</tt></td>
+					<td align="center" width="65"><tt>32</tt></td>
+					<td align="center" width="65"><tt>-1</tt></td>
+					<td align="center" width="65"><tt>-1</tt></td>
+				</tr>
+			</tbody></table>
+		</blockquote>
+		<p>If we added 18 to the BST, we would get a new tree and corresponding index file that looked like:</p>
+		<blockquote>
+			<table border="1" cellspacing="0" cellpadding="2">
+				<tbody><tr>
+					<td rowspan="5" align="center">&nbsp;&nbsp;<img src="./CSC 541  Assignment 4_files/bst_02.gif" alt="" height="73" width="90" border="0">&nbsp;&nbsp;</td>
+					<td align="center" width="65"><tt>offset</tt></td>
+					<td align="center" width="65"><tt>key</tt></td>
+					<td align="center" width="65"><tt>l</tt></td>
+					<td align="center" width="65"><tt>r</tt></td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>0</tt></td>
+					<td align="center" width="65"><tt>25</tt></td>
+					<td align="center" width="65"><tt>12</tt></td>
+					<td align="center" width="65"><tt>24</tt></td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>12</tt></td>
+					<td align="center" width="65"><tt>15</tt></td>
+					<td align="center" width="65"><tt>-1</tt></td>
+					<td align="center" width="65"><tt>36</tt></td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>24</tt></td>
+					<td align="center" width="65"><tt>32</tt></td>
+					<td align="center" width="65"><tt>-1</tt></td>
+					<td align="center" width="65"><tt>-1</tt></td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>36</tt></td>
+					<td align="center" width="65"><tt>18</tt></td>
+					<td align="center" width="65"><tt>-1</tt></td>
+					<td align="center" width="65"><tt>-1</tt></td>
+				</tr>
+			</tbody></table>
+		</blockquote>
+		<p>We added the new node by:</p>
+		<ul>
+			<li>finding the new node's parent in the index file
+			</li><li>appending the new node to the end of the index file
+			</li><li>updating the parent's child pointer to reference the new node
+		</li></ul>
+		<p>To find a node in the BST via the index file, simply start at the root (offset 0), then work through the tree until the target key is found, or an empty subtree is encountered.</p>
+		<h3>Implementation</h3>
+		<p>Implement a program called <tt>bst</tt> that allows the addition and retrieval of integer keys as described above. Store the structure of the BST in a corresponding disk file. No part of the BST except for the node currently being examined is to be held in-memory; all operations must seek through the index file as necessary to perform their tasks.</p>
+		<p>As your program runs, time how long it takes to perform each find command. Print both the total time spent executing finds and the average time per find when the program ends.</p>
+		<p>In addition to the standard add, find, and end commands, implement a fourth command called print; print will print the current state of the BST as a collection of key/offset pairs. All the nodes on each level of the BST will be printed on a separate line. Each line will be preceded by its level (where the root node is at level 1), followed by a colon, followed by the key and offset of each node stored at that level in the BST from left to right. For example, the second BST shown above would print as:</p>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td width="35">&nbsp;</td>
+		    <td><pre><font size="-1"><code>1: 25/0
+2: 15/12 32/24
+3: 18/36</code></font></pre></td>
+	      </tr>
+    </tbody></table>
+<p>where the first value before the slash represents the node's key, and the second value after the slash represent the node's offset.</p>
+		<p><b>Hint:</b> If you're wondering how to implement the print command, don't use recursion. Use a FIFO queue that initially holds only the root node. Remove the node at the head of the queue and add that node's left and right children (if they exist) to the end of the queue. Print the node's key and offset, then discard the node. Continue until the queue is empty.</p>
+		<h3>B-Tree</h3>
+	<p>In the second half of the assignment you will implement an order-33 B-Tree (that is, a B-Tree with nodes that hold up to 32 keys and 33 child pointers). The B-Tree will respond to exactly the same commands as the BST described in Part 3 of the assignment. Initially, the root node of the B-Tree will be stored at offset 0 (at the front) of the index file. However, as node splits occur new root nodes may be created and appended to the end of the index file. Therefore, your program will most likely need to use an internal variable to maintain the offset of the current root node.</p>
+		<p>As an example, a node in an order-33 B-Tree would have the following format:</p>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td width="35">&nbsp;</td>
+		    <td><pre><font size="-1"><code>struct btree_node {
+  int n;                // Number of keys in node
+  int key[ 32 ];        // Key values
+  long child[ 33 ];     // File offsets of child nodes
+}</code></font></pre></td>
+	      </tr>
+    </tbody></table>
+<p><tt>child</tt> contains the offset locations from the beginning of the file to the (up to) 33 child nodes. This is analogous to the use of <tt>l</tt> and <tt>r</tt> offsets for a BST. If any child doesn't exists, its child entry should be set to -1.</p>
+		<p>Consider the order-4 B-Tree shown below. The table below it represents the index file that represents the B-Tree. For simplicity, we assume blank child entries in the table represent offsets of -1 (no child node).</p>
+		<blockquote>
+			<table border="1" cellspacing="0" cellpadding="2">
+				<tbody><tr>
+					<td colspan="9" align="center" width="633"><img src="./CSC 541  Assignment 4_files/BTree.gif" alt="" height="70" width="274" border="0"></td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>offset</tt></td>
+					<td align="center" width="65"><tt>n</tt></td>
+					<td align="center" width="65"><tt>child[0]</tt></td>
+					<td align="center" width="65"><tt>key[0]</tt></td>
+					<td align="center" width="65"><tt>child[1]</tt></td>
+					<td align="center" width="65"><tt>key[1]</tt></td>
+					<td align="center" width="65"><tt>child[2]</tt></td>
+					<td align="center" width="65"><tt>key[2]</tt></td>
+					<td align="center" width="65"><tt>child[3]</tt></td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>0</tt></td>
+					<td align="center" width="65"><tt>1</tt></td>
+					<td align="center" width="65"><tt>32</tt></td>
+					<td align="center" width="65"><tt>M</tt></td>
+					<td align="center" width="65"><tt>64</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>32</tt></td>
+					<td align="center" width="65"><tt>2</tt></td>
+					<td align="center" width="65"><tt>96</tt></td>
+					<td align="center" width="65"><tt>D</tt></td>
+					<td align="center" width="65"><tt>128</tt></td>
+					<td align="center" width="65"><tt>H</tt></td>
+					<td align="center" width="65"><tt>160</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>64</tt></td>
+					<td align="center" width="65"><tt>3</tt></td>
+					<td align="center" width="65"><tt>192</tt></td>
+					<td align="center" width="65"><tt>Q</tt></td>
+					<td align="center" width="65"><tt>224</tt></td>
+					<td align="center" width="65"><tt>T</tt></td>
+					<td align="center" width="65"><tt>256</tt></td>
+					<td align="center" width="65"><tt>X</tt></td>
+					<td align="center" width="65"><tt>298</tt></td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>96</tt></td>
+					<td align="center" width="65"><tt>2</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>B</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>C</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>128</tt></td>
+					<td align="center" width="65"><tt>2</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>F</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>G</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>160</tt></td>
+					<td align="center" width="65"><tt>3</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>J</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>K</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>L</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>192</tt></td>
+					<td align="center" width="65"><tt>2</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>N</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>P</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>224</tt></td>
+					<td align="center" width="65"><tt>2</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>R</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>S</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>256</tt></td>
+					<td align="center" width="65"><tt>2</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>V</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>W</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="center" width="65"><tt>298</tt></td>
+					<td align="center" width="65"><tt>2</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>Y</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65"><tt>Z</tt></td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+					<td align="center" width="65">&nbsp;</td>
+				</tr>
+			</tbody></table>
+		</blockquote>
+		<h3>Implementation</h3>
+		<p>Implement a program called btree that allows the addition and retrieval of integer keys in an order-33 B-Tree as described above. Store the structure of the B-Tree in a corresponding disk file. No part of the B-Tree except for the node currently being examined is to be held in-memory; all operations must seek through the index file as necessary to perform their tasks.</p>
+		<p>As with the BST, time how long it takes to perform each find as your program runs. Print both the total time spent executing finds and the average time per find when the program ends.</p>
+		<p>In addition to the standard add, find, and end commands, implement a fourth command called print; print will print the current state of the B-Tree as a collection of key,key,key,key/offset pairs. All the nodes on each level of the B-Tree will be printed on a separate line. Each line will be preceded by its level (where the root node is at level 1), followed by a colon, followed by the keys and offset of each node stored at that level in the B-Tree from left to right. For example, the B-Tree shown above would print as:</p>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td width="35">&nbsp;</td>
+		    <td><pre><font size="-1"><code>1: M/0
+2: D,H/32 Q,T,X/64
+3: B,C/96 F,G/128 J,K,L/160 N,P/192 R,S/224 V,W/256 Y,Z/298</code></font></pre></td>
+	      </tr>
+    </tbody></table>
+<p>where the values before the slash represents the node's keys, and the value after the slash represent the node's offset. As with the BST, you can use a FIFO queue to simplify implementation of the print command.</p>
+		<h3>Testing</h3>
+		<p>Your programs should allow the user to enter the index file name on the command line when it starts. For example:</p>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td width="35">&nbsp;</td>
+		    <td><pre><font size="-1"><code>bst index.bst
+btree index.btree</code></font></pre></td>
+	      </tr>
+    </tbody></table>
+<p>would identify an index file called index.bst or index.btree .</p>
+		<p>To test your programs, we have created a sample input file (<tt>input.txt</tt>) and the corresponding output your programs should produce when they read this file (<tt>bst.out</tt> and <tt>btree.out</tt>). All three files can be downloaded from the <a href="http://courses.ncsu.edu/csc541/lec/601/wrap/hw4.html#supplemental_material">Supplemental Material</a> section of this web page.</p>
+		<h3>Hand-In Requirements</h3>
+		<p>Use the <a href="http://courses.ncsu.edu/csc541/"><i>Assignment_4</i> submit board</a> to submit the following files:</p>
+		<ul>
+			<li><tt>bst.exe</tt>, an executable version of your completed BST program
+			</li><li><tt>btree.exe</tt>, an executable version of your completed B-Tree program
+			</li><li>all associated source code files and Makefiles (these can be called anything you want)
+		</li></ul>
+		<p>There are two important requirements that your executable program must satisfy.</p>
+		<p>First, your two programs <b>must</b> be named exactly as shown above. The programs will be run and marked electronically using a script file, so using different names means the files will not be found (and subsequently will not be marked). </p>
+        <p>Second, both your programs <b>must</b> be compiled to run in a standard Windows XP/Vista environment or in Windows 7 32-bit.</p>
+	
+
+
+<iframe width="0" height="0" frameborder="0" src="about:blank" id="GINGER_SOFATWARE_contextMenuIFrame" scrolling="no" style="border: 0px solid; z-index: 2147483647; height: 0px; width: 0px; background-color: transparent;"></iframe><iframe width="0" height="0" frameborder="0" src="about:blank" id="GINGER_SOFATWARE_bubblesIFrame" scrolling="no" style="border: 0px solid; position: absolute; z-index: 2147483647; height: 0px; width: 0px; background-color: transparent;"></iframe><div id="GingerWidgetInfo" style="display:none;">{"version":"0.1.0.301","isExtension":true,"extensionName":"Chrome"}</div></body></html>

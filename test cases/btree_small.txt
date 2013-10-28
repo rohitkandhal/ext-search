@@ -1,0 +1,506 @@
+Record 364 exists.
+Record 220 exists.
+Record 74 exists.
+Record 6 exists.
+Record 166 exists.
+Record 28 exists.
+Record 274 exists.
+Record 361 exists.
+Record 299 exists.
+Record 491 exists.
+Record 439 exists.
+Record 498 exists.
+Record 406 exists.
+Record 49 exists.
+Record 290 exists.
+Record 396 exists.
+Record 496 exists.
+Record 91 exists.
+Record 101 exists.
+Record 319 exists.
+Record 432 exists.
+Record 65 exists.
+Record 469 exists.
+Record 315 exists.
+Record 467 exists.
+Record 68 exists.
+Record 457 exists.
+Record 160 exists.
+Record 145 exists.
+Record 189 exists.
+Record 275 exists.
+Record 351 exists.
+Record 473 exists.
+Record 18 exists.
+Record 192 exists.
+Record 476 exists.
+Record 377 exists.
+Record 421 exists.
+Record 167 exists.
+Record 122 exists.
+Record 450 exists.
+Record 185 exists.
+Record 391 exists.
+Record 440 exists.
+Record 210 exists.
+Record 110 exists.
+Record 76 exists.
+Record 268 exists.
+Record 226 exists.
+Record 195 exists.
+Record 40 exists.
+Record 118 exists.
+Record 433 exists.
+Record 495 exists.
+Record 287 exists.
+Record 108 exists.
+Record 177 exists.
+Record 269 exists.
+Record 330 exists.
+Record 82 exists.
+Record 320 exists.
+Record 230 exists.
+Record 291 exists.
+Record 284 exists.
+Record 383 exists.
+Record 98 exists.
+Record 349 exists.
+Record 318 exists.
+Record 280 exists.
+Record 41 exists.
+Record 223 exists.
+Record 99 exists.
+Record 442 exists.
+Record 12 exists.
+Record 58 exists.
+Record 125 exists.
+Record 255 exists.
+Record 73 exists.
+Record 7 exists.
+Record 115 exists.
+Record 409 exists.
+Record 403 exists.
+Record 462 exists.
+Record 187 exists.
+Record 180 exists.
+Record 298 exists.
+Record 5 exists.
+Record 219 exists.
+Record 263 exists.
+Record 237 exists.
+Record 238 exists.
+Record 175 exists.
+Record 420 exists.
+Record 426 exists.
+Record 466 exists.
+Record 104 exists.
+Record 236 exists.
+Record 401 exists.
+Record 285 exists.
+Record 229 exists.
+Record 30 exists.
+Record 44 exists.
+Record 248 exists.
+Record 482 exists.
+Record 266 exists.
+Record 419 exists.
+Record 444 exists.
+Record 362 exists.
+Record 216 exists.
+Record 427 exists.
+Record 456 exists.
+Record 3 exists.
+Record 59 exists.
+Record 155 exists.
+Record 293 exists.
+Record 53 exists.
+Record 188 exists.
+Record 408 exists.
+Record 371 exists.
+Record 149 exists.
+Record 443 exists.
+Record 157 exists.
+Record 242 exists.
+Record 278 exists.
+Record 477 exists.
+Record 410 exists.
+Record 204 exists.
+Record 258 exists.
+Record 222 exists.
+Record 436 exists.
+Record 31 exists.
+Record 66 exists.
+Record 407 exists.
+Record 232 exists.
+Record 316 exists.
+Record 265 exists.
+Record 321 exists.
+Record 139 exists.
+Record 116 exists.
+Record 267 exists.
+Record 240 exists.
+Record 193 exists.
+Record 461 exists.
+Record 141 exists.
+Record 13 exists.
+Record 353 exists.
+Record 133 exists.
+Record 83 exists.
+Record 164 exists.
+Record 453 exists.
+Record 343 exists.
+Record 182 exists.
+Record 10 exists.
+Record 329 exists.
+Record 384 exists.
+Record 208 exists.
+Record 367 exists.
+Record 130 exists.
+Record 132 exists.
+Record 327 exists.
+Record 288 exists.
+Record 69 exists.
+Record 109 exists.
+Record 100 exists.
+Record 422 exists.
+Record 412 exists.
+Record 207 exists.
+Record 399 exists.
+Record 428 exists.
+Record 370 exists.
+Record 289 exists.
+Record 75 exists.
+Record 310 exists.
+Record 458 exists.
+Record 37 exists.
+Record 277 exists.
+Record 404 exists.
+Record 35 exists.
+Record 481 exists.
+Record 17 exists.
+Record 455 exists.
+Record 385 exists.
+Record 326 exists.
+Record 57 exists.
+Record 494 exists.
+Record 227 exists.
+Record 184 exists.
+Record 437 exists.
+Record 356 exists.
+Record 154 exists.
+Record 295 exists.
+Record 123 exists.
+Record 39 exists.
+Record 9 exists.
+Record 388 exists.
+Record 355 exists.
+Record 129 exists.
+Record 137 exists.
+Record 369 exists.
+Record 490 exists.
+Record 252 exists.
+Record 143 exists.
+Record 460 exists.
+Record 84 exists.
+Record 350 exists.
+Record 218 exists.
+Record 107 exists.
+Record 251 exists.
+Record 203 exists.
+Record 64 exists.
+Record 56 exists.
+Record 342 exists.
+Record 23 exists.
+Record 447 exists.
+Record 434 exists.
+Record 270 exists.
+Record 348 exists.
+Record 212 exists.
+Record 470 exists.
+Record 429 exists.
+Record 21 exists.
+Record 262 exists.
+Record 197 exists.
+Record 463 exists.
+Record 113 exists.
+Record 464 exists.
+Record 489 exists.
+Record 416 exists.
+Record 117 exists.
+Record 328 exists.
+Record 331 exists.
+Record 414 exists.
+Record 325 exists.
+Record 424 exists.
+Record 159 exists.
+Record 52 exists.
+Record 20 exists.
+Record 96 exists.
+Record 292 exists.
+Record 480 exists.
+Record 297 exists.
+Record 305 exists.
+Record 474 exists.
+Record 26 exists.
+Record 88 exists.
+Record 415 exists.
+Record 106 exists.
+Record 121 exists.
+Record 479 exists.
+Record 172 exists.
+Record 545 does not exist.
+Record -272 does not exist.
+Record -410 does not exist.
+Record -354 does not exist.
+Record 895 does not exist.
+Record -380 does not exist.
+Record 813 does not exist.
+Record -462 does not exist.
+Record -322 does not exist.
+Record 983 does not exist.
+Record 863 does not exist.
+Record 579 does not exist.
+Record -176 does not exist.
+Record -28 does not exist.
+Record -276 does not exist.
+Record -194 does not exist.
+Record 585 does not exist.
+Record 887 does not exist.
+Record 701 does not exist.
+Record -192 does not exist.
+Record 679 does not exist.
+Record 859 does not exist.
+Record 975 does not exist.
+Record 893 does not exist.
+Record -304 does not exist.
+Record -454 does not exist.
+Record -168 does not exist.
+Record -164 does not exist.
+Record 911 does not exist.
+Record 519 does not exist.
+Record 733 does not exist.
+Record 551 does not exist.
+Record -54 does not exist.
+Record 757 does not exist.
+Record -244 does not exist.
+Record 741 does not exist.
+Record 817 does not exist.
+Record -388 does not exist.
+Record 839 does not exist.
+Record -348 does not exist.
+Record 683 does not exist.
+Record 881 does not exist.
+Record 761 does not exist.
+Record 561 does not exist.
+Record -22 does not exist.
+Record 745 does not exist.
+Record 635 does not exist.
+Record -332 does not exist.
+Record -148 does not exist.
+Record -450 does not exist.
+Record 743 does not exist.
+Record 571 does not exist.
+Record 945 does not exist.
+Record 807 does not exist.
+Record 875 does not exist.
+Record 533 does not exist.
+Record 833 does not exist.
+Record 835 does not exist.
+Record -106 does not exist.
+Record -12 does not exist.
+Record -430 does not exist.
+Record -46 does not exist.
+Record 721 does not exist.
+Record -376 does not exist.
+Record 589 does not exist.
+Record -186 does not exist.
+Record 663 does not exist.
+Record 773 does not exist.
+Record 823 does not exist.
+Record -466 does not exist.
+Record -70 does not exist.
+Record -48 does not exist.
+Record -310 does not exist.
+Record 735 does not exist.
+Record 501 does not exist.
+Record -214 does not exist.
+Record -52 does not exist.
+Record 577 does not exist.
+Record -372 does not exist.
+Record -374 does not exist.
+Record -128 does not exist.
+Record 917 does not exist.
+Record -386 does not exist.
+Record 809 does not exist.
+Record -236 does not exist.
+Record -338 does not exist.
+Record -458 does not exist.
+Record -356 does not exist.
+Record -306 does not exist.
+Record -166 does not exist.
+Record -14 does not exist.
+Record -178 does not exist.
+Record 525 does not exist.
+Record -324 does not exist.
+Record 845 does not exist.
+Record -100 does not exist.
+Record -256 does not exist.
+Record -438 does not exist.
+Record 651 does not exist.
+Record -300 does not exist.
+Record 605 does not exist.
+Record 691 does not exist.
+Record 889 does not exist.
+Record -224 does not exist.
+Record 913 does not exist.
+Record 949 does not exist.
+Record -266 does not exist.
+Record 811 does not exist.
+Record -408 does not exist.
+Record -298 does not exist.
+Record 857 does not exist.
+Record -326 does not exist.
+Record -360 does not exist.
+Record 661 does not exist.
+Record -484 does not exist.
+Record -134 does not exist.
+Record 993 does not exist.
+Record 511 does not exist.
+Record -154 does not exist.
+Record 923 does not exist.
+Record 931 does not exist.
+Record -468 does not exist.
+Record 715 does not exist.
+Record 997 does not exist.
+Record 563 does not exist.
+Record 959 does not exist.
+Record 951 does not exist.
+Record 905 does not exist.
+Record 803 does not exist.
+Record -302 does not exist.
+Record -110 does not exist.
+Record -200 does not exist.
+Record -98 does not exist.
+Record 681 does not exist.
+Record -464 does not exist.
+Record -476 does not exist.
+Record -142 does not exist.
+Record -122 does not exist.
+Record -352 does not exist.
+Record 711 does not exist.
+Record 771 does not exist.
+Record 529 does not exist.
+Record -452 does not exist.
+Record 543 does not exist.
+Record -140 does not exist.
+Record 897 does not exist.
+Record 781 does not exist.
+Record 747 does not exist.
+Record -188 does not exist.
+Record -146 does not exist.
+Record 941 does not exist.
+Record 653 does not exist.
+Record 725 does not exist.
+Record -350 does not exist.
+Record -286 does not exist.
+Record 847 does not exist.
+Record -196 does not exist.
+Record -294 does not exist.
+Record -198 does not exist.
+Record -16 does not exist.
+Record 999 does not exist.
+Record 739 does not exist.
+Record 759 does not exist.
+Record -162 does not exist.
+Record -204 does not exist.
+Record -82 does not exist.
+Record 547 does not exist.
+Record 713 does not exist.
+Record 705 does not exist.
+Record -330 does not exist.
+Record 603 does not exist.
+Record -314 does not exist.
+Record 837 does not exist.
+Record -240 does not exist.
+Record 627 does not exist.
+Record 595 does not exist.
+Record -342 does not exist.
+Record -344 does not exist.
+Record 987 does not exist.
+Record 669 does not exist.
+Record 801 does not exist.
+Record 597 does not exist.
+Record 717 does not exist.
+Record -420 does not exist.
+Record -440 does not exist.
+Record 731 does not exist.
+Record -358 does not exist.
+Record -428 does not exist.
+Record 783 does not exist.
+Record 699 does not exist.
+Record 515 does not exist.
+Record -102 does not exist.
+Record 879 does not exist.
+Record 749 does not exist.
+Record 647 does not exist.
+Record 709 does not exist.
+Record -414 does not exist.
+Record -8 does not exist.
+Record 593 does not exist.
+Record 841 does not exist.
+Record 631 does not exist.
+Record -500 does not exist.
+Record -406 does not exist.
+Record 665 does not exist.
+Record -250 does not exist.
+Record -364 does not exist.
+Record -492 does not exist.
+Record -126 does not exist.
+Record -478 does not exist.
+Record 925 does not exist.
+Record -362 does not exist.
+Record -108 does not exist.
+Record -496 does not exist.
+Record -32 does not exist.
+Record 779 does not exist.
+Record 527 does not exist.
+Record -132 does not exist.
+Record 985 does not exist.
+Record 935 does not exist.
+Record 587 does not exist.
+Record -160 does not exist.
+Record -228 does not exist.
+Record 619 does not exist.
+Record -218 does not exist.
+Record 971 does not exist.
+Record 555 does not exist.
+Record 965 does not exist.
+Record -62 does not exist.
+Record 865 does not exist.
+Record 611 does not exist.
+Record -486 does not exist.
+Record -398 does not exist.
+Record 567 does not exist.
+Record 673 does not exist.
+Record -422 does not exist.
+Record -118 does not exist.
+Record -120 does not exist.
+Record -246 does not exist.
+Record -498 does not exist.
+Record -206 does not exist.
+Record 753 does not exist.
+Record -446 does not exist.
+Record -114 does not exist.
+Record 671 does not exist.
+Record 873 does not exist.
+Record -124 does not exist.
+Record -254 does not exist.
+Record -366 does not exist.
+Record 581 does not exist.
+Record -156 does not exist.
+
+1: 19,37,55,73,99,118,140,160,180,197,230,248,269,299,329,349,367,396,421,440,457,478/528 
+2: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18/0 20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36/5544 38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54/2904 56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72/6072 74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98/1584 100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117/4224 119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139/2376 141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159/4752 161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179/792 181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196/5016 198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229/3168 231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247/1320 249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268/5280 270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298/2640 300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328/264 330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348/3432 350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366/4488 368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395/1848 397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420/3696 422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439/1056 441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456/5808 458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477/2112 479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499/3960 
+
+Sum: 0.000000
+Avg: 0.000000
