@@ -22,6 +22,12 @@ qnode* tail1;
 qnode* head2;	// Queue2: Next Level
 qnode* tail2;
 
+SYSTEMTIME  beg1;      // Start time
+SYSTEMTIME  end1;		// End Time
+
+int totalFinds = 0;
+int totalTimeinMS = 0;
+
 int main( int argc, char *argv[] )
 {
 	string inp_str;	// input string : Command + Key
@@ -85,9 +91,19 @@ int main( int argc, char *argv[] )
 		// 2. Find Command
 		else if(strcmp(cmd[0], "find") == 0)
 		{
+			// Find Start Time
+			GetLocalTime(&beg1);
+
 			int key = cmd[1];
 
 			findKey(key, rootOff);
+
+			totalFinds++;
+
+			// Find End Time
+			GetLocalTime(&end1);
+
+			totalTimeinMS += ((end1.wSecond*1000 + end1.wMilliseconds) - (beg1.wSecond*1000 + beg1.wMilliseconds));
 		}
 
 		// 3. Print data
@@ -99,7 +115,7 @@ int main( int argc, char *argv[] )
 		// 4. End Command
 		else if(strcmp(cmd[0],"end") == 0)
 		{
-			//fp.close();
+			printTime();
 			break;
 		}
 	}
@@ -528,6 +544,15 @@ void print_data()
 		head2 = NULL;
 		tail2 = NULL;
 	}
+}
+
+void printTime()
+{
+	int totalAvgTimeinMS = totalTimeinMS / totalFinds;
+
+	printf("\n\nSum: %02d.%06d", totalTimeinMS/1000, totalTimeinMS%1000);
+	printf("\nAvg: %02d.%06d", totalAvgTimeinMS/1000, totalAvgTimeinMS%1000);
+	
 }
 
 // **************************** QUEUE IMPLEMENTATION ****************************

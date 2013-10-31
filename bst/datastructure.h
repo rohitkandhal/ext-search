@@ -27,3 +27,4 @@ void insertNode(int d, qnode **head, qnode **tail);
 qnode* removeNode(qnode **head, qnode **tail);
 
 void print_data();
+void printTime();

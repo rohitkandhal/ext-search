@@ -71,3 +71,4 @@ void findKey(int key, int nodeOff);
 
 // ************************ PRINT ************************
 void print_data();
+void printTime();

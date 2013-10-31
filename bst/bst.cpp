@@ -23,6 +23,10 @@ qnode* tail1;
 qnode* head2;	// Next Level
 qnode* tail2;
 
+SYSTEMTIME  beg;      // Start time
+SYSTEMTIME  end;		// End Time
+int totalFinds = 0;
+
 int main( int argc, char *argv[] )
 {
 	string inp_str;	// input string : Command + Key
@@ -97,21 +101,30 @@ int main( int argc, char *argv[] )
 		// 2. Find Command
 		else if(strcmp(cmd[0], "find") == 0)
 		{
+			if(totalFinds == 0)
+			{
+				GetLocalTime(&beg);
+			}
+
 			int key = cmd[1];
 
 			find_node(0, key);			
+
+			totalFinds++;
 		}
 
 		// 3. Print data
 		else if(strcmp(cmd[0], "print") == 0)
 		{
+			GetLocalTime(&end);
+
 			print_data();
 		}
 
 		// 4. End Command
 		else if(strcmp(cmd[0],"end") == 0)
 		{
-			//fp.close();
+			printTime();
 			break;
 		}
 	}
@@ -348,4 +361,21 @@ qnode* removeNode(qnode **head, qnode **tail)
 		}
 	}
 	return tmp;
+}
+
+void printTime()
+{
+	int startTimeinMS = beg.wSecond*1000 + beg.wMilliseconds;
+	int endTimeinMS = end.wSecond*1000 + end.wMilliseconds;
+
+	int totalTimeinMS = endTimeinMS - startTimeinMS;
+
+	int secondsTook = totalTimeinMS / 1000;
+	int millisecondsTook = totalTimeinMS % 1000;
+
+	int totalAvgTimeinMS = totalTimeinMS / totalFinds;
+
+	printf("\nSum: %02d.%06d", secondsTook, millisecondsTook);
+	printf("\nAvg: %02d.%06d", totalAvgTimeinMS / 1000, totalAvgTimeinMS % 1000);
+	
 }
